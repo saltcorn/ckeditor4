@@ -209,6 +209,7 @@ var editor = CKEDITOR.replace( $('.${rndcls}')[0], {
   disallowedContent: 'img{width,height}',
   extraAllowedContent: 'img[width,height]',
   image_previewText: ' ',
+  versionCheck: false,
 } );
 CKEDITOR.on('dialogDefinition', function (ev) {
   var dialogName = ev.data.name;
